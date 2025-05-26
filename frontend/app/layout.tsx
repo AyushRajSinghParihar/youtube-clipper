@@ -10,6 +10,7 @@ const font = Host_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: "Clippa - Clean & Fast Video Clipper | HD YouTube Downloads",
   description:
     "Premium YouTube video clipper with zero ads. Download & clip HD videos with precise timestamps. Simple pricing, maximum quality. 📼",
